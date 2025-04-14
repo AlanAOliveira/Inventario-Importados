@@ -1,0 +1,435 @@
+# python -m http.server 8000 --directory ./web
+
+from http.server import HTTPServer as BaseHTTPServer, SimpleHTTPRequestHandler
+import simplejson
+import os
+import htmlfunctions
+
+pecas = [{
+        "Part Number": "30410-52650-00",
+        "Back": "7693",
+        "Part Name": "TRANSAXLE ASSY CV W/TORQUE CONVERTER",
+        "QTD": 34,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "30410-52670-00",
+        "Back": "7071",
+        "Part Name": "TRANSAXLE ASSY CV W/TORQUE CONVERTER",
+        "QTD": 9,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "71033-16030-00",
+        "Back": "8241",
+        "Part Name": "LEG SUB-ASSY  RR SEAT CUSHION           ",
+        "QTD": 16,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "71033-47010-00",
+        "Back": "7748",
+        "Part Name": "LEG SUB-ASSY RR SEAT CUSHION",
+        "QTD": 2,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "821H1-16030-00",
+        "Back": "7777",
+        "Part Name": "WIRE HV FLOOR UNDER",
+        "QTD": 45,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "16000-37391-00",
+        "Back": "7365",
+        "Part Name": "ENGINE ASSY L/CLUTCH",
+        "QTD": 20,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "16000-37450-00",
+        "Back": "8616",
+        "Part Name": "ENGINE ASSY L/CLUTCH",
+        "QTD": 26,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "16000-37460-00",
+        "Back": "7401",
+        "Part Name": "ENGINE ASSY L/CLUTCH",
+        "QTD": 33,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "30410-16010-00",
+        "Back": "7361",
+        "Part Name": "TRANSAXLE ASSY CV W/TORQUE CONVERTER",
+        "QTD": 3,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "30410-16070-00",
+        "Back": "8617",
+        "Part Name": "TRANSAXLE ASSY  CV W TORQUE CONVERTER   ",
+        "QTD": 3,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "30900-47150-00",
+        "Back": "7363",
+        "Part Name": "TRANSAXLE ASSY HYBRID VEHICLE",
+        "QTD": 13,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "42431-0A050-00",
+        "Back": "816",
+        "Part Name": "DISC RR",
+        "QTD": 20,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "52119-YY300-00",
+        "Back": "105",
+        "Part Name": "COVER FR BUMPER",
+        "QTD": 31,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "77210-0A110-00",
+        "Back": "52",
+        "Part Name": "PIPE ASSY FUEL TANK FILLER",
+        "QTD": 21,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "77210-0A150-00",
+        "Back": "826",
+        "Part Name": "PIPE ASSY FUEL TANK FILLER",
+        "QTD": 6,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "G9280-47200-00",
+        "Back": "8127",
+        "Part Name": "BATTERY ASSY HV",
+        "QTD": 11,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "43512-06180-00",
+        "Back": "535",
+        "Part Name": "DISC FR",
+        "QTD": 46,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "77210-0A030-00",
+        "Back": "606",
+        "Part Name": "PIPE ASSY FUEL TANK FILLER",
+        "QTD": 34,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "77210-0A210-00",
+        "Back": "1267",
+        "Part Name": "PIPE ASSY FUEL TANK FILLER",
+        "QTD": 15,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "53100-YY110-00",
+        "Back": "781",
+        "Part Name": "GRILLE ASSY RADIATOR",
+        "QTD": 38,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "53100-YY220-00",
+        "Back": "787",
+        "Part Name": "GRILLE ASSY RADIATOR",
+        "QTD": 9,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "52111-YY050-00",
+        "Back": "776",
+        "Part Name": "BAR FR BUMPER",
+        "QTD": 44,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "52611-YY020-00",
+        "Back": "86",
+        "Part Name": "ABSORBER FR BUMPER ENERGY",
+        "QTD": 25,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "58141-02120-00",
+        "Back": "557",
+        "Part Name": "REINFORCE  FLOOR SI MBR TO FLR PAN  NO 1",
+        "QTD": 8,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "58142-02130-00",
+        "Back": "558",
+        "Part Name": "REINFORCE  FLOOR SI MBR TO FLR PAN  NO 2",
+        "QTD": 30,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "64910-0A010-C0",
+        "Back": "570",
+        "Part Name": "COVER ASSY TONNEAU",
+        "QTD": 25,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "63200-0D080-B0",
+        "Back": "182",
+        "Part Name": "HOUSING ASSY SUN ROOF",
+        "QTD": 6,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "63200-0D080-C0",
+        "Back": "183",
+        "Part Name": "HOUSING ASSY SUN ROOF",
+        "QTD": 33,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "58308-0D010-00",
+        "Back": "794",
+        "Part Name": "BRACKET SUB-ASSY RR FLOOR CROSSMEMBER",
+        "QTD": 35,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "63200-16051-A0",
+        "Back": "8191",
+        "Part Name": "HOUSING ASSY SUN ROOF",
+        "QTD": 40,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "63200-16051-C0",
+        "Back": "8192",
+        "Part Name": "HOUSING ASSY  SUN ROOF                  ",
+        "QTD": 2,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "63201-16131-00",
+        "Back": "7382",
+        "Part Name": "GLASS SUB-ASSY SLIDING ROOF",
+        "QTD": 24,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "G9200-12031-00",
+        "Back": "8165",
+        "Part Name": "INVERTER ASSY W/CONVERTER",
+        "QTD": 16,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "G9200-47351-00",
+        "Back": "8166",
+        "Part Name": "INVERTER ASSY W/CONVERTER",
+        "QTD": 47,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "47810-0A030-00",
+        "Back": "821",
+        "Part Name": "CALIPER ASSY DISC BRAKE W/EPB RR RH",
+        "QTD": 13,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "47820-0A030-00",
+        "Back": "822",
+        "Part Name": "CALIPER ASSY DISC BRAKE W/EPB RR LH",
+        "QTD": 38,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "47200-0DL40-00",
+        "Back": "791",
+        "Part Name": "CYLINDER ASSY BRAKE MASTER",
+        "QTD": 34,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "47200-0DL50-00",
+        "Back": "792",
+        "Part Name": "CYLINDER ASSY BRAKE MASTER",
+        "QTD": 29,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "64531-0D350-00",
+        "Back": "523",
+        "Part Name": "BAR HINGE TORSION RH",
+        "QTD": 31,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "64532-0D340-00",
+        "Back": "524",
+        "Part Name": "BAR HINGE TORSION LH",
+        "QTD": 49,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "44550-47040-00",
+        "Back": "7396",
+        "Part Name": "TUBE ASSY BRAKE ACTUATOR",
+        "QTD": 27,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "47710-0A010-00",
+        "Back": "545",
+        "Part Name": "CALIPER ASSY DISC BRAKE FR RH",
+        "QTD": 19,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "47720-0A010-00",
+        "Back": "546",
+        "Part Name": "CALIPER ASSY DISC BRAKE FR LH",
+        "QTD": 13,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "84270-16020-00",
+        "Back": "8202",
+        "Part Name": "SENSOR ASSY POWER BACK DOOR RH",
+        "QTD": 49,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "84280-16020-00",
+        "Back": "8203",
+        "Part Name": "SENSOR ASSY POWER BACK DOOR LH",
+        "QTD": 15,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "67127-0D240-00",
+        "Back": "722",
+        "Part Name": "REINFORCEMENT RR DOOR OUTS PANEL NO.2",
+        "QTD": 12,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }, {
+        "Part Number": "77606-0A080-00",
+        "Back": "611",
+        "Part Name": "PROTECTOR SUB-ASSY FUEL TANK",
+        "QTD": 44,
+        "count1": 0,
+        "count2": 0,
+        "count3": 0
+    }]
+
+
+class HTTPHandler(SimpleHTTPRequestHandler):
+    
+    def _set_headers(self):
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html')
+        self.end_headers()
+
+    def translate_path(self, path):
+        path = SimpleHTTPRequestHandler.translate_path(self, path)
+        relpath = os.path.relpath(path, os.getcwd())
+        fullpath = os.path.join(self.server.base_path, relpath)
+        return fullpath
+
+    def do_HEAD(self):
+        self._set_headers()
+
+    def do_POST(self):
+        self._set_headers()
+        print("in post method")
+        self.data_string = self.rfile.read(int(self.headers['Content-Length']))
+
+        #self.send_response(200)
+        self.end_headers()
+        data = simplejson.loads(self.data_string)
+        print(data["function"])
+
+        if data["function"] == "getlista":
+            self.wfile.write(
+                bytes(htmlfunctions.geralistapecas(pecas), "utf-8"))
+            return
+
+        else:
+            with open("for_presen.py", 'rb') as f:
+                self.wfile.write(f.read())
+            return
+         
+class HTTPServer(BaseHTTPServer):
+
+    def __init__(self,
+                 base_path,
+                 server_address,
+                 RequestHandlerClass=HTTPHandler):
+        self.base_path = base_path
+        BaseHTTPServer.__init__(self, server_address, RequestHandlerClass)
+
+
+web_dir = os.path.join(os.path.dirname(__file__), 'web')
+httpd = HTTPServer(web_dir, ("inf10797", 80))
+httpd.serve_forever()
