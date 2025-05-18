@@ -10,45 +10,21 @@
 </head>
 
 <body>
-    <div class="d-flex flex-row align-itens-center">
-        <button class="btn btn-success">
-            Gerar Lista
-        </button>
-        <div>Dupla #2</div>
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            lista de peças
-        </div>
-        <div class="card-body">
-            <ul class="list-group" id="listapecas">
-                <li class="list-group-item">
-                    <p>Back: 7693|PN:30410-52650-00<br> 
-                        Name: TRANSAXLE ASSY CV W/TORQUE CONVERTER</p>
-                    <div class="col">Contagem: <input type="number" class="form-control"></div> 
-                    
-                </li>
-                <li class="list-group-item">
-                    <p>Back: 7693|PN:30410-52650-00<br> 
-                        Name: TRANSAXLE ASSY CV W/TORQUE CONVERTER</p>
-                    <div class="col">Contagem: <input type="number" class="form-control"></div> 
-                    
-                </li>
-                <li class="list-group-item">
-                    <p>Back: 7693|PN:30410-52650-00<br> 
-                        Name: TRANSAXLE ASSY CV W/TORQUE CONVERTER</p>
-                    <div class="col">Contagem: <input type="number" class="form-control"></div> 
-                    
-                </li>
-                <li class="list-group-item">
-                    <p>Back: 7693|PN:30410-52650-00<br> 
-                        Name: TRANSAXLE ASSY CV W/TORQUE CONVERTER</p>
-                    <div class="col">Contagem: <input type="number" class="form-control"></div> 
-                    
-                </li>
-                <button type="button" onclick="aoba()" class="btn btn-success">Gravar</button>
-            </ul>
+    <div class="d-flex flex-row align-items-center justify-content-center" style="height: 100vh;">
+        <div class="card">
+            <div class="card-header">
+                Dados do Operador
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label for="idOperador1" class="form-label">ID Operador 1</label>
+                    <input type="number" min="1" class="form-control" id="idOperador1" aria-describedby="idOperador1lHelp">
+                    <div id="idOperador1lHelp" class="form-text">O seu numero de id igual o do crachá</div>
+                </div>
+                <div class="mb-3 p-2">
+                    <button class="btn btn-success" onclick="login()">Prosseguir</button>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -1,4 +1,17 @@
-[
+
+duplas = [
+    {
+        "cod":1,
+        "operador1":12345,
+        "operador2":54321
+    }
+]
+
+listas = [
+
+]
+
+pecas = [
     [
         1,
         26,
@@ -7,10 +20,10 @@
         300,
         "A01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -21,10 +34,10 @@
         1500,
         "A01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -35,10 +48,10 @@
         500,
         "A01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -49,10 +62,10 @@
         3000,
         "A01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -63,10 +76,10 @@
         300,
         "A01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -77,10 +90,10 @@
         10,
         "A01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -91,10 +104,10 @@
         1000,
         "A01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -105,10 +118,10 @@
         1000,
         "A01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -119,10 +132,10 @@
         200,
         "A01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -133,10 +146,10 @@
         2000,
         "A01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -147,10 +160,10 @@
         1000,
         "A01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -161,10 +174,10 @@
         1500,
         "A01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -175,10 +188,10 @@
         200,
         "A01D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -189,10 +202,10 @@
         10,
         "A01D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -203,10 +216,10 @@
         2000,
         "A01D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -217,10 +230,10 @@
         2000,
         "A01D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -231,10 +244,10 @@
         8,
         "A01D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -245,10 +258,10 @@
         1000,
         "A01D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -259,10 +272,10 @@
         80,
         "A02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -273,10 +286,10 @@
         8,
         "A02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -287,10 +300,10 @@
         2000,
         "A02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -301,10 +314,10 @@
         1000,
         "A02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -315,10 +328,10 @@
         1000,
         "A02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -329,10 +342,10 @@
         2000,
         "A02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -343,10 +356,10 @@
         1000,
         "A02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -357,10 +370,10 @@
         1000,
         "A02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -371,10 +384,10 @@
         30,
         "A02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -385,10 +398,10 @@
         30,
         "A02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -399,10 +412,10 @@
         30,
         "A02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -413,10 +426,10 @@
         8,
         "A02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -427,10 +440,10 @@
         8,
         "A03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -441,10 +454,10 @@
         36,
         "A03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -455,10 +468,10 @@
         200,
         "A03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -469,10 +482,10 @@
         400,
         "A03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -483,10 +496,10 @@
         144,
         "A03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -497,10 +510,10 @@
         1000,
         "A03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -511,10 +524,10 @@
         500,
         "A03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -525,10 +538,10 @@
         8,
         "A03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -539,10 +552,10 @@
         8,
         "A03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -553,10 +566,10 @@
         8,
         "A03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -567,10 +580,10 @@
         8,
         "A03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -581,10 +594,10 @@
         6,
         "A03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -595,10 +608,10 @@
         30,
         "A03D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -609,10 +622,10 @@
         30,
         "A03D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -623,10 +636,10 @@
         8,
         "A03D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -637,10 +650,10 @@
         8,
         "A03D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -651,10 +664,10 @@
         8,
         "A03D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -665,10 +678,10 @@
         8,
         "A03D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -679,10 +692,10 @@
         10,
         "A04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -693,10 +706,10 @@
         10,
         "A04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -707,10 +720,10 @@
         10,
         "A04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -721,10 +734,10 @@
         24,
         "A04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -735,10 +748,10 @@
         10,
         "A04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -749,10 +762,10 @@
         30,
         "A04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -763,10 +776,10 @@
         10,
         "A04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -777,10 +790,10 @@
         200,
         "A04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -791,10 +804,10 @@
         8,
         "A04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -805,10 +818,10 @@
         10,
         "A04C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -819,10 +832,10 @@
         10,
         "A04C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -833,10 +846,10 @@
         30,
         "A04C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -847,10 +860,10 @@
         25,
         "A04C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -861,10 +874,10 @@
         8,
         "A04C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -875,10 +888,10 @@
         24,
         "A04C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -889,10 +902,10 @@
         24,
         "A05A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -903,10 +916,10 @@
         500,
         "A05A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -917,10 +930,10 @@
         50,
         "A05A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -931,10 +944,10 @@
         30,
         "A05B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -945,10 +958,10 @@
         144,
         "A05B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -959,10 +972,10 @@
         32,
         "A05B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -973,10 +986,10 @@
         10,
         "A05C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -987,10 +1000,10 @@
         80,
         "A05C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1001,10 +1014,10 @@
         144,
         "A06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1015,10 +1028,10 @@
         10,
         "A06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1029,10 +1042,10 @@
         72,
         "A06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1043,10 +1056,10 @@
         20,
         "A06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1057,10 +1070,10 @@
         8,
         "A06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1071,10 +1084,10 @@
         8,
         "A06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1085,10 +1098,10 @@
         500,
         "A06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1099,10 +1112,10 @@
         1000,
         "A06C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1113,10 +1126,10 @@
         10,
         "A06C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1127,10 +1140,10 @@
         100,
         "A06C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1141,10 +1154,10 @@
         80,
         "A06C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1155,10 +1168,10 @@
         8,
         "A06D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1169,10 +1182,10 @@
         10,
         "A06D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1183,10 +1196,10 @@
         10,
         "A06D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1197,10 +1210,10 @@
         20,
         "A06D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1211,10 +1224,10 @@
         200,
         "A06D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1225,10 +1238,10 @@
         80,
         "A07A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1239,10 +1252,10 @@
         80,
         "A07A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1253,10 +1266,10 @@
         100,
         "A07A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1267,10 +1280,10 @@
         1000,
         "A07A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1281,10 +1294,10 @@
         1000,
         "A07A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1295,10 +1308,10 @@
         10,
         "A07B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1309,10 +1322,10 @@
         40,
         "A07C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1323,10 +1336,10 @@
         20,
         "A07C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1337,10 +1350,10 @@
         28,
         "A07C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1351,10 +1364,10 @@
         10,
         "A08A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1365,10 +1378,10 @@
         6,
         "A08B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1379,10 +1392,10 @@
         10,
         "A09A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1393,10 +1406,10 @@
         170,
         "A09A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1407,10 +1420,10 @@
         40,
         "A09B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1421,10 +1434,10 @@
         200,
         "A09B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1435,10 +1448,10 @@
         300,
         "A09B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1449,10 +1462,10 @@
         25,
         "A10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1463,10 +1476,10 @@
         1000,
         "A10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1477,10 +1490,10 @@
         24,
         "A10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1491,10 +1504,10 @@
         56,
         "A10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1505,10 +1518,10 @@
         500,
         "A10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1519,10 +1532,10 @@
         300,
         "A10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1533,10 +1546,10 @@
         1000,
         "A10C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1547,10 +1560,10 @@
         2000,
         "A10C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1561,10 +1574,10 @@
         400,
         "A10C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1575,10 +1588,10 @@
         500,
         "A10C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1589,10 +1602,10 @@
         2000,
         "A10D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1603,10 +1616,10 @@
         500,
         "A10D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1617,10 +1630,10 @@
         500,
         "A10D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1631,10 +1644,10 @@
         400,
         "A10D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1645,10 +1658,10 @@
         500,
         "A10D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1659,10 +1672,10 @@
         150,
         "A10D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1673,10 +1686,10 @@
         800,
         "A10E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1687,10 +1700,10 @@
         48,
         "A10E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1701,10 +1714,10 @@
         300,
         "A10E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1715,10 +1728,10 @@
         100,
         "A10E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1729,10 +1742,10 @@
         2000,
         "A10E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1743,10 +1756,10 @@
         80,
         "A10E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1757,10 +1770,10 @@
         200,
         "A11A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1771,10 +1784,10 @@
         120,
         "A11A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1785,10 +1798,10 @@
         50,
         "A11A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1799,10 +1812,10 @@
         120,
         "A11B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1813,10 +1826,10 @@
         150,
         "A11B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1827,10 +1840,10 @@
         6,
         "A11C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1841,10 +1854,10 @@
         12,
         "A11D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1855,10 +1868,10 @@
         100,
         "A11D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1869,10 +1882,10 @@
         40,
         "A11D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1883,10 +1896,10 @@
         200,
         "A11D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1897,10 +1910,10 @@
         36,
         "A11D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1911,10 +1924,10 @@
         10,
         "A12A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1925,10 +1938,10 @@
         12,
         "A12A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1939,10 +1952,10 @@
         6,
         "A12A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1953,10 +1966,10 @@
         24,
         "A12B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1967,10 +1980,10 @@
         28,
         "A12B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1981,10 +1994,10 @@
         6,
         "A12B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -1995,10 +2008,10 @@
         100,
         "A13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2009,10 +2022,10 @@
         500,
         "A13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2023,10 +2036,10 @@
         50,
         "A13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2037,10 +2050,10 @@
         200,
         "A13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2051,10 +2064,10 @@
         500,
         "A13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2065,10 +2078,10 @@
         25,
         "A13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2079,10 +2092,10 @@
         25,
         "A13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2093,10 +2106,10 @@
         400,
         "A13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2107,10 +2120,10 @@
         72,
         "A13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2121,10 +2134,10 @@
         2700,
         "A13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2135,10 +2148,10 @@
         1000,
         "A13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2149,10 +2162,10 @@
         500,
         "A13C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2163,10 +2176,10 @@
         450,
         "A13C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2177,10 +2190,10 @@
         500,
         "A13C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2191,10 +2204,10 @@
         800,
         "A13C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2205,10 +2218,10 @@
         1000,
         "A13C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2219,10 +2232,10 @@
         450,
         "A13D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2233,10 +2246,10 @@
         500,
         "A13D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2247,10 +2260,10 @@
         500,
         "A13D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2261,10 +2274,10 @@
         1000,
         "A13D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2275,10 +2288,10 @@
         1000,
         "A13D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2289,10 +2302,10 @@
         25,
         "A13E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2303,10 +2316,10 @@
         25,
         "A13E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2317,10 +2330,10 @@
         1000,
         "A13E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2331,10 +2344,10 @@
         1000,
         "A13E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2345,10 +2358,10 @@
         500,
         "A13E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2359,10 +2372,10 @@
         500,
         "A13F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2373,10 +2386,10 @@
         100,
         "A13F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2387,10 +2400,10 @@
         1000,
         "A13F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2401,10 +2414,10 @@
         50,
         "A13F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2415,10 +2428,10 @@
         500,
         "A13F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2429,10 +2442,10 @@
         30,
         "A13F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2443,10 +2456,10 @@
         1000,
         "A14A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2457,10 +2470,10 @@
         500,
         "A14A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2471,10 +2484,10 @@
         200,
         "A14A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2485,10 +2498,10 @@
         100,
         "A14A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2499,10 +2512,10 @@
         1000,
         "A14B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2513,10 +2526,10 @@
         240,
         "A14B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2527,10 +2540,10 @@
         500,
         "A14B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2541,10 +2554,10 @@
         1000,
         "A14B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2555,10 +2568,10 @@
         1000,
         "A14B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2569,10 +2582,10 @@
         700,
         "A14C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2583,10 +2596,10 @@
         300,
         "A14C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2597,10 +2610,10 @@
         2000,
         "A14C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2611,10 +2624,10 @@
         2000,
         "A14C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2625,10 +2638,10 @@
         1000,
         "A14C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2639,10 +2652,10 @@
         500,
         "A14D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2653,10 +2666,10 @@
         2000,
         "A14D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2667,10 +2680,10 @@
         1000,
         "A14D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2681,10 +2694,10 @@
         400,
         "A14D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2695,10 +2708,10 @@
         1000,
         "A14D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2709,10 +2722,10 @@
         500,
         "A14E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2723,10 +2736,10 @@
         100,
         "A14F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2737,10 +2750,10 @@
         120,
         "A14F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2751,10 +2764,10 @@
         400,
         "A14F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2765,10 +2778,10 @@
         1000,
         "A14F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2779,10 +2792,10 @@
         2000,
         "A14F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2793,10 +2806,10 @@
         36,
         "A14F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2807,10 +2820,10 @@
         80,
         "A15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2821,10 +2834,10 @@
         500,
         "A15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2835,10 +2848,10 @@
         50,
         "A15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2849,10 +2862,10 @@
         100,
         "A15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2863,10 +2876,10 @@
         100,
         "A15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2877,10 +2890,10 @@
         15,
         "A15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2891,10 +2904,10 @@
         4000,
         "A15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2905,10 +2918,10 @@
         196,
         "A15C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2919,10 +2932,10 @@
         10,
         "A15C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2933,10 +2946,10 @@
         10,
         "A15C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2947,10 +2960,10 @@
         8,
         "A15C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2961,10 +2974,10 @@
         24,
         "A16A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2975,10 +2988,10 @@
         50,
         "A16A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -2989,10 +3002,10 @@
         1500,
         "A16B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3003,10 +3016,10 @@
         700,
         "A16B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3017,10 +3030,10 @@
         1000,
         "A16B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3031,10 +3044,10 @@
         400,
         "A16B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3045,10 +3058,10 @@
         2000,
         "A16C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3059,10 +3072,10 @@
         800,
         "A16C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3073,10 +3086,10 @@
         500,
         "A16C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3087,10 +3100,10 @@
         600,
         "A16C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3101,10 +3114,10 @@
         100,
         "A16C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3115,10 +3128,10 @@
         4000,
         "A16D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3129,10 +3142,10 @@
         1000,
         "A16D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3143,10 +3156,10 @@
         1000,
         "A16D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3157,10 +3170,10 @@
         800,
         "A16D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3171,10 +3184,10 @@
         300,
         "A16D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3185,10 +3198,10 @@
         1000,
         "A16D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3199,10 +3212,10 @@
         10,
         "A16E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3213,10 +3226,10 @@
         30,
         "A16E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3227,10 +3240,10 @@
         18,
         "A16E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3241,10 +3254,10 @@
         200,
         "A17A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3255,10 +3268,10 @@
         500,
         "A17B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3269,10 +3282,10 @@
         500,
         "A17B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3283,10 +3296,10 @@
         3000,
         "A17B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3297,10 +3310,10 @@
         170,
         "A17B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3311,10 +3324,10 @@
         500,
         "A17C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3325,10 +3338,10 @@
         3000,
         "A17C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3339,10 +3352,10 @@
         2500,
         "A17C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3353,10 +3366,10 @@
         900,
         "A17C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3367,10 +3380,10 @@
         98,
         "A17D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3381,10 +3394,10 @@
         40,
         "A17D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3395,10 +3408,10 @@
         40,
         "A17D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3409,10 +3422,10 @@
         500,
         "A18A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3423,10 +3436,10 @@
         160,
         "A18A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3437,10 +3450,10 @@
         100,
         "A18A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3451,10 +3464,10 @@
         2000,
         "A18A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3465,10 +3478,10 @@
         600,
         "A18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3479,10 +3492,10 @@
         1000,
         "A18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3493,10 +3506,10 @@
         2000,
         "A18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3507,10 +3520,10 @@
         700,
         "A18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3521,10 +3534,10 @@
         450,
         "A18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3535,10 +3548,10 @@
         4000,
         "A18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3549,10 +3562,10 @@
         2000,
         "A18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3563,10 +3576,10 @@
         3000,
         "A18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3577,10 +3590,10 @@
         400,
         "A18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3591,10 +3604,10 @@
         180,
         "A18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3605,10 +3618,10 @@
         1250,
         "A18D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3619,10 +3632,10 @@
         1500,
         "A18D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3633,10 +3646,10 @@
         1500,
         "A18D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3647,10 +3660,10 @@
         3000,
         "A18D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3661,10 +3674,10 @@
         1000,
         "A18D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3675,10 +3688,10 @@
         1500,
         "A18D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3689,10 +3702,10 @@
         20,
         "A18E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3703,10 +3716,10 @@
         98,
         "A18E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3717,10 +3730,10 @@
         200,
         "A18E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3731,10 +3744,10 @@
         240,
         "A18E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3745,10 +3758,10 @@
         25,
         "A19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3759,10 +3772,10 @@
         20,
         "A19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3773,10 +3786,10 @@
         2000,
         "A19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3787,10 +3800,10 @@
         1500,
         "A19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3801,10 +3814,10 @@
         1000,
         "A19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3815,10 +3828,10 @@
         12000,
         "A19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3829,10 +3842,10 @@
         1000,
         "A19B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3843,10 +3856,10 @@
         1000,
         "A19B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3857,10 +3870,10 @@
         1500,
         "A19C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3871,10 +3884,10 @@
         600,
         "A19C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3885,10 +3898,10 @@
         1000,
         "A19C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3899,10 +3912,10 @@
         300,
         "A19C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3913,10 +3926,10 @@
         150,
         "A19C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3927,10 +3940,10 @@
         30,
         "A19D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3941,10 +3954,10 @@
         12,
         "A19D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3955,10 +3968,10 @@
         24,
         "A20A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3969,10 +3982,10 @@
         60,
         "A20A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3983,10 +3996,10 @@
         1000,
         "A20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -3997,10 +4010,10 @@
         1500,
         "A20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4011,10 +4024,10 @@
         500,
         "A20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4025,10 +4038,10 @@
         2000,
         "A20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4039,10 +4052,10 @@
         4000,
         "A20C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4053,10 +4066,10 @@
         1000,
         "A20C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4067,10 +4080,10 @@
         100,
         "A20D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4081,10 +4094,10 @@
         4500,
         "A20D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4095,10 +4108,10 @@
         1000,
         "A20D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4109,10 +4122,10 @@
         1000,
         "A20D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4123,10 +4136,10 @@
         500,
         "A20D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4137,10 +4150,10 @@
         500,
         "A20D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4151,10 +4164,10 @@
         10,
         "A21A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4165,10 +4178,10 @@
         3000,
         "A21A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4179,10 +4192,10 @@
         12000,
         "A21A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4193,10 +4206,10 @@
         300,
         "A21A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4207,10 +4220,10 @@
         1000,
         "A21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4221,10 +4234,10 @@
         1500,
         "A21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4235,10 +4248,10 @@
         2500,
         "A21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4249,10 +4262,10 @@
         1000,
         "A21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4263,10 +4276,10 @@
         1000,
         "A21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4277,10 +4290,10 @@
         600,
         "A21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4291,10 +4304,10 @@
         1500,
         "A21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4305,10 +4318,10 @@
         2000,
         "A21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4319,10 +4332,10 @@
         1000,
         "A21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4333,10 +4346,10 @@
         1000,
         "A21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4347,10 +4360,10 @@
         3000,
         "A21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4361,10 +4374,10 @@
         25,
         "A21D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4375,10 +4388,10 @@
         600,
         "A21D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4389,10 +4402,10 @@
         72,
         "A21D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4403,10 +4416,10 @@
         300,
         "A21D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4417,10 +4430,10 @@
         250,
         "A21D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4431,10 +4444,10 @@
         40,
         "A22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4445,10 +4458,10 @@
         84,
         "A22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4459,10 +4472,10 @@
         100,
         "A22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4473,10 +4486,10 @@
         2000,
         "A22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4487,10 +4500,10 @@
         500,
         "A22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4501,10 +4514,10 @@
         2000,
         "A22B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4515,10 +4528,10 @@
         3000,
         "A22B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4529,10 +4542,10 @@
         300,
         "A22B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4543,10 +4556,10 @@
         3000,
         "A22C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4557,10 +4570,10 @@
         2000,
         "A22C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4571,10 +4584,10 @@
         1000,
         "A22C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4585,10 +4598,10 @@
         60,
         "A22C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4599,10 +4612,10 @@
         2000,
         "A22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4613,10 +4626,10 @@
         1000,
         "A22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4627,10 +4640,10 @@
         1000,
         "A22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4641,10 +4654,10 @@
         2000,
         "A22E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4655,10 +4668,10 @@
         2000,
         "A22E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4669,10 +4682,10 @@
         1500,
         "A22E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4683,10 +4696,10 @@
         1000,
         "A22E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4697,10 +4710,10 @@
         5000,
         "A22F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4711,10 +4724,10 @@
         1000,
         "A22F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4725,10 +4738,10 @@
         1000,
         "A22F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4739,10 +4752,10 @@
         240,
         "A22F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4753,10 +4766,10 @@
         4500,
         "A22F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4767,10 +4780,10 @@
         2,
         "A23A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4781,10 +4794,10 @@
         1300,
         "A23B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4795,10 +4808,10 @@
         28,
         "A23B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4809,10 +4822,10 @@
         100,
         "A24A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4823,10 +4836,10 @@
         48,
         "A24A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4837,10 +4850,10 @@
         120,
         "A24A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4851,10 +4864,10 @@
         120,
         "A24A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4865,10 +4878,10 @@
         120,
         "A24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4879,10 +4892,10 @@
         3000,
         "A24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4893,10 +4906,10 @@
         1200,
         "A24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4907,10 +4920,10 @@
         700,
         "A24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4921,10 +4934,10 @@
         64,
         "A24C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4935,10 +4948,10 @@
         120,
         "A24C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4949,10 +4962,10 @@
         4,
         "A25A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4963,10 +4976,10 @@
         10,
         "A25B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4977,10 +4990,10 @@
         16,
         "A25B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -4991,10 +5004,10 @@
         20,
         "A25B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5005,10 +5018,10 @@
         1000,
         "A26A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5019,10 +5032,10 @@
         1000,
         "A26A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5033,10 +5046,10 @@
         1000,
         "A26B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5047,10 +5060,10 @@
         2000,
         "A26B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5061,10 +5074,10 @@
         2000,
         "A26C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5075,10 +5088,10 @@
         400,
         "A26C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5089,10 +5102,10 @@
         2000,
         "A26D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5103,10 +5116,10 @@
         2000,
         "A26D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5117,10 +5130,10 @@
         16,
         "B01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5131,10 +5144,10 @@
         30,
         "B01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5145,10 +5158,10 @@
         100,
         "B01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5159,10 +5172,10 @@
         0,
         "B01B",
         "LOCAL",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5173,10 +5186,10 @@
         300,
         "B01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5187,10 +5200,10 @@
         100,
         "B01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5201,10 +5214,10 @@
         100,
         "B01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5215,10 +5228,10 @@
         100,
         "B01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5229,10 +5242,10 @@
         0,
         "B01C",
         "DESUSO",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5243,10 +5256,10 @@
         140,
         "B01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5257,10 +5270,10 @@
         70,
         "B01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5271,10 +5284,10 @@
         1000,
         "B01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5285,10 +5298,10 @@
         500,
         "B02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5299,10 +5312,10 @@
         40,
         "B02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5313,10 +5326,10 @@
         1200,
         "B02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5327,10 +5340,10 @@
         1500,
         "B02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5341,10 +5354,10 @@
         100,
         "B02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5355,10 +5368,10 @@
         2000,
         "B02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5369,10 +5382,10 @@
         160,
         "B02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5383,10 +5396,10 @@
         150,
         "B02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5397,10 +5410,10 @@
         72,
         "B02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5411,10 +5424,10 @@
         100,
         "B02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5425,10 +5438,10 @@
         30,
         "B03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5439,10 +5452,10 @@
         300,
         "B03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5453,10 +5466,10 @@
         20,
         "B03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5467,10 +5480,10 @@
         150,
         "B03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5481,10 +5494,10 @@
         500,
         "B03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5495,10 +5508,10 @@
         130,
         "B03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5509,10 +5522,10 @@
         1500,
         "B03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5523,10 +5536,10 @@
         600,
         "B03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5537,10 +5550,10 @@
         80,
         "B03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5551,10 +5564,10 @@
         150,
         "B03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5565,10 +5578,10 @@
         10,
         "B03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5579,10 +5592,10 @@
         60,
         "B03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5593,10 +5606,10 @@
         1000,
         "B03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5607,10 +5620,10 @@
         20,
         "B03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5621,10 +5634,10 @@
         10,
         "B04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5635,10 +5648,10 @@
         10,
         "B04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5649,10 +5662,10 @@
         10,
         "B04B",
         "LOCAL",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5663,10 +5676,10 @@
         135,
         "B05A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5677,10 +5690,10 @@
         10,
         "B05B",
         "LOCAL",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5691,10 +5704,10 @@
         10,
         "B06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5705,10 +5718,10 @@
         20,
         "B06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5719,10 +5732,10 @@
         15,
         "B06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5733,10 +5746,10 @@
         28,
         "B07A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5747,10 +5760,10 @@
         400,
         "B07B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5761,10 +5774,10 @@
         500,
         "B07C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5775,10 +5788,10 @@
         10,
         "B08A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5789,10 +5802,10 @@
         20,
         "B08B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5803,10 +5816,10 @@
         128,
         "B08B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5817,10 +5830,10 @@
         40,
         "B09A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5831,10 +5844,10 @@
         48,
         "B09A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5845,10 +5858,10 @@
         10,
         "B09B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5859,10 +5872,10 @@
         20,
         "B09B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5873,10 +5886,10 @@
         10,
         "B10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5887,10 +5900,10 @@
         20,
         "B10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5901,10 +5914,10 @@
         20,
         "B11B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5915,10 +5928,10 @@
         500,
         "B11B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5929,10 +5942,10 @@
         32,
         "B11B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5943,10 +5956,10 @@
         8,
         "B11B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5957,10 +5970,10 @@
         800,
         "B12A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5971,10 +5984,10 @@
         2000,
         "B12A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5985,10 +5998,10 @@
         400,
         "B12A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -5999,10 +6012,10 @@
         1500,
         "B12B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6013,10 +6026,10 @@
         100,
         "B12B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6027,10 +6040,10 @@
         100,
         "B12B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6041,10 +6054,10 @@
         1500,
         "B12B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6055,10 +6068,10 @@
         6000,
         "B12B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6069,10 +6082,10 @@
         2000,
         "B12C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6083,10 +6096,10 @@
         1500,
         "B12C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6097,10 +6110,10 @@
         40,
         "B12D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6111,10 +6124,10 @@
         80,
         "B12D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6125,10 +6138,10 @@
         10,
         "B12D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6139,10 +6152,10 @@
         160,
         "B12D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6153,10 +6166,10 @@
         500,
         "B12D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6167,10 +6180,10 @@
         24000,
         "B13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6181,10 +6194,10 @@
         2000,
         "B13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6195,10 +6208,10 @@
         500,
         "B13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6209,10 +6222,10 @@
         60,
         "B13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6223,10 +6236,10 @@
         100,
         "B13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6237,10 +6250,10 @@
         60,
         "B13C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6251,10 +6264,10 @@
         50,
         "B13C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6265,10 +6278,10 @@
         30,
         "B13D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6279,10 +6292,10 @@
         10,
         "B13D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6293,10 +6306,10 @@
         10,
         "B13D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6307,10 +6320,10 @@
         100,
         "B13D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6321,10 +6334,10 @@
         1500,
         "B14B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6335,10 +6348,10 @@
         50,
         "B15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6349,10 +6362,10 @@
         30,
         "B15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6363,10 +6376,10 @@
         80,
         "B15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6377,10 +6390,10 @@
         15,
         "B15C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6391,10 +6404,10 @@
         22,
         "B16A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6405,10 +6418,10 @@
         50,
         "B16B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6419,10 +6432,10 @@
         100,
         "B16B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6433,10 +6446,10 @@
         50,
         "B16C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6447,10 +6460,10 @@
         14,
         "B17A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6461,10 +6474,10 @@
         50,
         "B17B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6475,10 +6488,10 @@
         16,
         "B17B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6489,10 +6502,10 @@
         10,
         "B17C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6503,10 +6516,10 @@
         12,
         "B17C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6517,10 +6530,10 @@
         30,
         "C20A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6531,10 +6544,10 @@
         15,
         "B17C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6545,10 +6558,10 @@
         10,
         "B18A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6559,10 +6572,10 @@
         25,
         "B18A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6573,10 +6586,10 @@
         10,
         "B18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6587,10 +6600,10 @@
         100,
         "B18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6601,10 +6614,10 @@
         1500,
         "B18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6615,10 +6628,10 @@
         800,
         "B18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6629,10 +6642,10 @@
         150,
         "B18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6643,10 +6656,10 @@
         1000,
         "B18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6657,10 +6670,10 @@
         200,
         "B18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6671,10 +6684,10 @@
         250,
         "B18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6685,10 +6698,10 @@
         1500,
         "B18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6699,10 +6712,10 @@
         1000,
         "B18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6713,10 +6726,10 @@
         70,
         "B18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6727,10 +6740,10 @@
         14,
         "B18D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6741,10 +6754,10 @@
         250,
         "B19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6755,10 +6768,10 @@
         300,
         "B19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6769,10 +6782,10 @@
         1000,
         "B19B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6783,10 +6796,10 @@
         1000,
         "B19B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6797,10 +6810,10 @@
         70,
         "B19C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6811,10 +6824,10 @@
         50,
         "B19C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6825,10 +6838,10 @@
         40,
         "B19D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6839,10 +6852,10 @@
         50,
         "B19D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6853,10 +6866,10 @@
         150,
         "B20A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6867,10 +6880,10 @@
         200,
         "B20A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6881,10 +6894,10 @@
         160,
         "B20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6895,10 +6908,10 @@
         400,
         "B20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6909,10 +6922,10 @@
         500,
         "B20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6923,10 +6936,10 @@
         200,
         "B20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6937,10 +6950,10 @@
         14,
         "B20C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6951,10 +6964,10 @@
         14,
         "B20C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6965,10 +6978,10 @@
         30,
         "B21A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6979,10 +6992,10 @@
         500,
         "B21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -6993,10 +7006,10 @@
         200,
         "B21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7007,10 +7020,10 @@
         200,
         "B21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7021,10 +7034,10 @@
         120,
         "B21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7035,10 +7048,10 @@
         500,
         "B21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7049,10 +7062,10 @@
         500,
         "B21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7063,10 +7076,10 @@
         300,
         "B21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7077,10 +7090,10 @@
         1000,
         "B21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7091,10 +7104,10 @@
         300,
         "B21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7105,10 +7118,10 @@
         1700,
         "B21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7119,10 +7132,10 @@
         500,
         "B21D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7133,10 +7146,10 @@
         200,
         "B21D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7147,10 +7160,10 @@
         400,
         "B21D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7161,10 +7174,10 @@
         500,
         "B21D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7175,10 +7188,10 @@
         14,
         "B21E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7189,10 +7202,10 @@
         200,
         "B21E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7203,10 +7216,10 @@
         100,
         "B21E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7217,10 +7230,10 @@
         1000,
         "B21E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7231,10 +7244,10 @@
         300,
         "B22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7245,10 +7258,10 @@
         150,
         "B22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7259,10 +7272,10 @@
         200,
         "B22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7273,10 +7286,10 @@
         120,
         "B22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7287,10 +7300,10 @@
         100,
         "B22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7301,10 +7314,10 @@
         150,
         "B22B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7315,10 +7328,10 @@
         100,
         "B22B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7329,10 +7342,10 @@
         500,
         "B22B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7343,10 +7356,10 @@
         160,
         "B22C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7357,10 +7370,10 @@
         350,
         "B22C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7371,10 +7384,10 @@
         1000,
         "B22C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7385,10 +7398,10 @@
         500,
         "B22C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7399,10 +7412,10 @@
         300,
         "B22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7413,10 +7426,10 @@
         150,
         "B22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7427,10 +7440,10 @@
         400,
         "B22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7441,10 +7454,10 @@
         2000,
         "B22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7455,10 +7468,10 @@
         2000,
         "B22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7469,10 +7482,10 @@
         36,
         "B23A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7483,10 +7496,10 @@
         70,
         "B23A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7497,10 +7510,10 @@
         30,
         "B23A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7511,10 +7524,10 @@
         90,
         "B23B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7525,10 +7538,10 @@
         300,
         "B23B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7539,10 +7552,10 @@
         300,
         "B23B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7553,10 +7566,10 @@
         600,
         "B23C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7567,10 +7580,10 @@
         600,
         "B23C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7581,10 +7594,10 @@
         60,
         "B23C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7595,10 +7608,10 @@
         60,
         "B23C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7609,10 +7622,10 @@
         50,
         "B23D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7623,10 +7636,10 @@
         60,
         "B23D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7637,10 +7650,10 @@
         50,
         "B23D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7651,10 +7664,10 @@
         200,
         "B23D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7665,10 +7678,10 @@
         12,
         "B24A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7679,10 +7692,10 @@
         24,
         "B24A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7693,10 +7706,10 @@
         10,
         "B24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7707,10 +7720,10 @@
         100,
         "B24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7721,10 +7734,10 @@
         200,
         "B24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7735,10 +7748,10 @@
         50,
         "B24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7749,10 +7762,10 @@
         40,
         "B24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7763,10 +7776,10 @@
         10,
         "B24C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7777,10 +7790,10 @@
         250,
         "B24C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7791,10 +7804,10 @@
         70,
         "B24C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7805,10 +7818,10 @@
         4,
         "B25A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7819,10 +7832,10 @@
         40,
         "B25A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7833,10 +7846,10 @@
         100,
         "B25B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7847,10 +7860,10 @@
         70,
         "B25B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7861,10 +7874,10 @@
         300,
         "B25B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7875,10 +7888,10 @@
         200,
         "B25B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7889,10 +7902,10 @@
         10,
         "B25C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7903,10 +7916,10 @@
         30,
         "B25C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7917,10 +7930,10 @@
         10,
         "B26A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7931,10 +7944,10 @@
         1000,
         "B26A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7945,10 +7958,10 @@
         10,
         "B26B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7959,10 +7972,10 @@
         48,
         "B26B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7973,10 +7986,10 @@
         50,
         "B26C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -7987,10 +8000,10 @@
         10,
         "B26C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8001,10 +8014,10 @@
         40,
         "B26D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8015,10 +8028,10 @@
         200,
         "C01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8029,10 +8042,10 @@
         30,
         "C01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8043,10 +8056,10 @@
         30,
         "C01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8057,10 +8070,10 @@
         30,
         "C01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8071,10 +8084,10 @@
         30,
         "C01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8085,10 +8098,10 @@
         1000,
         "C01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8099,10 +8112,10 @@
         700,
         "C01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8113,10 +8126,10 @@
         1000,
         "C01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8127,10 +8140,10 @@
         100,
         "C01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8141,10 +8154,10 @@
         1050,
         "C01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8155,10 +8168,10 @@
         500,
         "C01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8169,10 +8182,10 @@
         500,
         "C01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8183,10 +8196,10 @@
         500,
         "C01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8197,10 +8210,10 @@
         1000,
         "C01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8211,10 +8224,10 @@
         2000,
         "C01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8225,10 +8238,10 @@
         800,
         "C01D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8239,10 +8252,10 @@
         500,
         "C01D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8253,10 +8266,10 @@
         800,
         "C01D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8267,10 +8280,10 @@
         300,
         "C01D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8281,10 +8294,10 @@
         50,
         "C01E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8295,10 +8308,10 @@
         1500,
         "C01E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8309,10 +8322,10 @@
         500,
         "C01E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8323,10 +8336,10 @@
         2000,
         "C01E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8337,10 +8350,10 @@
         1000,
         "C01F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8351,10 +8364,10 @@
         2000,
         "C01F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8365,10 +8378,10 @@
         20,
         "C01F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8379,10 +8392,10 @@
         30,
         "C01F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8393,10 +8406,10 @@
         22,
         "C01F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8407,10 +8420,10 @@
         30,
         "C01F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8421,10 +8434,10 @@
         2000,
         "C02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8435,10 +8448,10 @@
         30,
         "C02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8449,10 +8462,10 @@
         75,
         "C02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8463,10 +8476,10 @@
         52,
         "C02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8477,10 +8490,10 @@
         1000,
         "C02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8491,10 +8504,10 @@
         1000,
         "C02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8505,10 +8518,10 @@
         200,
         "C02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8519,10 +8532,10 @@
         30,
         "C02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8533,10 +8546,10 @@
         500,
         "C02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8547,10 +8560,10 @@
         500,
         "C02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8561,10 +8574,10 @@
         300,
         "C02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8575,10 +8588,10 @@
         2000,
         "C02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8589,10 +8602,10 @@
         400,
         "C02D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8603,10 +8616,10 @@
         500,
         "C02D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8617,10 +8630,10 @@
         1000,
         "C02D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8631,10 +8644,10 @@
         100,
         "C02E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8645,10 +8658,10 @@
         800,
         "C02E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8659,10 +8672,10 @@
         400,
         "C02E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8673,10 +8686,10 @@
         1000,
         "C02E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8687,10 +8700,10 @@
         60,
         "C02F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8701,10 +8714,10 @@
         10,
         "C02F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8715,10 +8728,10 @@
         25,
         "C02F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8729,10 +8742,10 @@
         20,
         "C02F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8743,10 +8756,10 @@
         20,
         "C02F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8757,10 +8770,10 @@
         30,
         "C03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8771,10 +8784,10 @@
         56,
         "C03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8785,10 +8798,10 @@
         24,
         "C03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8799,10 +8812,10 @@
         16,
         "C03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8813,10 +8826,10 @@
         16,
         "C03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8827,10 +8840,10 @@
         150,
         "C03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8841,10 +8854,10 @@
         21,
         "C03D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8855,10 +8868,10 @@
         200,
         "C03D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8869,10 +8882,10 @@
         700,
         "C03D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8883,10 +8896,10 @@
         30,
         "C03D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8897,10 +8910,10 @@
         10,
         "C04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8911,10 +8924,10 @@
         90,
         "C04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8925,10 +8938,10 @@
         60,
         "C04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8939,10 +8952,10 @@
         10,
         "C04C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8953,10 +8966,10 @@
         36,
         "C04C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8967,10 +8980,10 @@
         10,
         "C05A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8981,10 +8994,10 @@
         10,
         "C05C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -8995,10 +9008,10 @@
         42,
         "C05C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9009,10 +9022,10 @@
         24,
         "C06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9023,10 +9036,10 @@
         80,
         "C06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9037,10 +9050,10 @@
         40,
         "C06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9051,10 +9064,10 @@
         25,
         "C06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9065,10 +9078,10 @@
         10,
         "C06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9079,10 +9092,10 @@
         20,
         "C06C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9093,10 +9106,10 @@
         16,
         "C06C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9107,10 +9120,10 @@
         30,
         "C06C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9121,10 +9134,10 @@
         20,
         "C07B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9135,10 +9148,10 @@
         50,
         "C08A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9149,10 +9162,10 @@
         32,
         "C08A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9163,10 +9176,10 @@
         10,
         "C08B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9177,10 +9190,10 @@
         16,
         "C08B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9191,10 +9204,10 @@
         20,
         "C08C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9205,10 +9218,10 @@
         16,
         "C08D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9219,10 +9232,10 @@
         12,
         "C08D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9233,10 +9246,10 @@
         50,
         "C08D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9247,10 +9260,10 @@
         16,
         "C08D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9261,10 +9274,10 @@
         24,
         "C09A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9275,10 +9288,10 @@
         48,
         "C09A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9289,10 +9302,10 @@
         12,
         "C09A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9303,10 +9316,10 @@
         4,
         "C09B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9317,10 +9330,10 @@
         4,
         "C09B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9331,10 +9344,10 @@
         26,
         "C10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9345,10 +9358,10 @@
         60,
         "C10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9359,10 +9372,10 @@
         60,
         "C10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9373,10 +9386,10 @@
         60,
         "C10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9387,10 +9400,10 @@
         10,
         "C10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9401,10 +9414,10 @@
         80,
         "C10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9415,10 +9428,10 @@
         10,
         "C10C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9429,10 +9442,10 @@
         64,
         "C10C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9443,10 +9456,10 @@
         12,
         "C11A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9457,10 +9470,10 @@
         10,
         "C11A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9471,10 +9484,10 @@
         9,
         "C11B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9485,10 +9498,10 @@
         100,
         "C11B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9499,10 +9512,10 @@
         24,
         "C11B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9513,10 +9526,10 @@
         15,
         "C12A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9527,10 +9540,10 @@
         0,
         "C12A",
         "LOCAL",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9541,10 +9554,10 @@
         30,
         "C12A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9555,10 +9568,10 @@
         5,
         "C12B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9569,10 +9582,10 @@
         50,
         "C13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9583,10 +9596,10 @@
         3,
         "C13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9597,10 +9610,10 @@
         14,
         "C13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9611,10 +9624,10 @@
         24,
         "C13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9625,10 +9638,10 @@
         60,
         "C13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9639,10 +9652,10 @@
         4,
         "C14A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9653,10 +9666,10 @@
         80,
         "C14A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9667,10 +9680,10 @@
         84,
         "C14B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9681,10 +9694,10 @@
         84,
         "C14B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9695,10 +9708,10 @@
         12,
         "C14B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9709,10 +9722,10 @@
         4800,
         "C15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9723,10 +9736,10 @@
         1000,
         "C15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9737,10 +9750,10 @@
         600,
         "C15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9751,10 +9764,10 @@
         300,
         "C15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9765,10 +9778,10 @@
         30,
         "C15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9779,10 +9792,10 @@
         30,
         "C15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9793,10 +9806,10 @@
         70,
         "C15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9807,10 +9820,10 @@
         500,
         "C15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9821,10 +9834,10 @@
         1000,
         "C15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9835,10 +9848,10 @@
         160,
         "C15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9849,10 +9862,10 @@
         2000,
         "C15C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9863,10 +9876,10 @@
         2000,
         "C15C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9877,10 +9890,10 @@
         1000,
         "C15C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9891,10 +9904,10 @@
         500,
         "C15C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9905,10 +9918,10 @@
         1500,
         "C15C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9919,10 +9932,10 @@
         1000,
         "C15D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9933,10 +9946,10 @@
         2000,
         "C15D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9947,10 +9960,10 @@
         1000,
         "C15D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9961,10 +9974,10 @@
         400,
         "C15E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9975,10 +9988,10 @@
         1500,
         "C15E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -9989,10 +10002,10 @@
         2000,
         "C15E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10003,10 +10016,10 @@
         120,
         "C15E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10017,10 +10030,10 @@
         80,
         "C15F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10031,10 +10044,10 @@
         80,
         "C15F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10045,10 +10058,10 @@
         48,
         "C15F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10059,10 +10072,10 @@
         560,
         "C15F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10073,10 +10086,10 @@
         30,
         "C15F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10087,10 +10100,10 @@
         80,
         "C16A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10101,10 +10114,10 @@
         50,
         "C16A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10115,10 +10128,10 @@
         30,
         "C16B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10129,10 +10142,10 @@
         6,
         "C16C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10143,10 +10156,10 @@
         25,
         "C17A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10157,10 +10170,10 @@
         100,
         "C17A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10171,10 +10184,10 @@
         20,
         "C17A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10185,10 +10198,10 @@
         16,
         "C17B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10199,10 +10212,10 @@
         180,
         "C17B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10213,10 +10226,10 @@
         30,
         "C17C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10227,10 +10240,10 @@
         30,
         "C17C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10241,10 +10254,10 @@
         16,
         "C18A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10255,10 +10268,10 @@
         60,
         "C18A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10269,10 +10282,10 @@
         80,
         "C18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10283,10 +10296,10 @@
         4,
         "C18B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10297,10 +10310,10 @@
         24,
         "C18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10311,10 +10324,10 @@
         30,
         "C18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10325,10 +10338,10 @@
         110,
         "C18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10339,10 +10352,10 @@
         42,
         "C18C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10353,10 +10366,10 @@
         48,
         "C19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10367,10 +10380,10 @@
         8,
         "C19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10381,10 +10394,10 @@
         45,
         "C19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10395,10 +10408,10 @@
         12,
         "C19B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10409,10 +10422,10 @@
         8,
         "C19B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10423,10 +10436,10 @@
         40,
         "C19C",
         "DESUSO",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10437,10 +10450,10 @@
         22,
         "C19C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10451,10 +10464,10 @@
         100,
         "C19C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10465,10 +10478,10 @@
         24,
         "C19C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10479,10 +10492,10 @@
         24,
         "C20A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10493,10 +10506,10 @@
         15,
         "C20A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10507,10 +10520,10 @@
         150,
         "C20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10521,10 +10534,10 @@
         200,
         "C20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10535,10 +10548,10 @@
         200,
         "C20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10549,10 +10562,10 @@
         150,
         "C20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10563,10 +10576,10 @@
         1000,
         "C20B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10577,10 +10590,10 @@
         330,
         "C20C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10591,10 +10604,10 @@
         320,
         "C20C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10605,10 +10618,10 @@
         1200,
         "C20C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10619,10 +10632,10 @@
         700,
         "C20C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10633,10 +10646,10 @@
         500,
         "C20D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10647,10 +10660,10 @@
         400,
         "C20D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10661,10 +10674,10 @@
         400,
         "C20D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10675,10 +10688,10 @@
         300,
         "C20E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10689,10 +10702,10 @@
         60,
         "C20E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10703,10 +10716,10 @@
         1000,
         "C20F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10717,10 +10730,10 @@
         2000,
         "C20F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10731,10 +10744,10 @@
         35,
         "C20F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10745,10 +10758,10 @@
         100,
         "C21A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10759,10 +10772,10 @@
         250,
         "C21A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10773,10 +10786,10 @@
         50,
         "C21A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10787,10 +10800,10 @@
         400,
         "C21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10801,10 +10814,10 @@
         100,
         "C21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10815,10 +10828,10 @@
         500,
         "C21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10829,10 +10842,10 @@
         500,
         "C21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10843,10 +10856,10 @@
         300,
         "C21B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10857,10 +10870,10 @@
         250,
         "C21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10871,10 +10884,10 @@
         120,
         "C21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10885,10 +10898,10 @@
         120,
         "C21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10899,10 +10912,10 @@
         500,
         "C21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10913,10 +10926,10 @@
         200,
         "C21C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10927,10 +10940,10 @@
         50,
         "C21D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10941,10 +10954,10 @@
         50,
         "C21D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10955,10 +10968,10 @@
         100,
         "C22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10969,10 +10982,10 @@
         50,
         "C22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10983,10 +10996,10 @@
         100,
         "C22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -10997,10 +11010,10 @@
         3000,
         "C22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11011,10 +11024,10 @@
         30,
         "C22B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11025,10 +11038,10 @@
         600,
         "C22C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11039,10 +11052,10 @@
         100,
         "C22C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11053,10 +11066,10 @@
         200,
         "C22C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11067,10 +11080,10 @@
         170,
         "C22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11081,10 +11094,10 @@
         170,
         "C22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11095,10 +11108,10 @@
         300,
         "C22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11109,10 +11122,10 @@
         70,
         "C22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11123,10 +11136,10 @@
         120,
         "C22D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11137,10 +11150,10 @@
         0,
         "C22E",
         "DESUSO",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11151,10 +11164,10 @@
         3000,
         "C22E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11165,10 +11178,10 @@
         60,
         "C22E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11179,10 +11192,10 @@
         24,
         "C22E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11193,10 +11206,10 @@
         300,
         "C22E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11207,10 +11220,10 @@
         1000,
         "C22F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11221,10 +11234,10 @@
         1000,
         "C22F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11235,10 +11248,10 @@
         1000,
         "C22F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11249,10 +11262,10 @@
         40,
         "C22F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11263,10 +11276,10 @@
         1000,
         "C22F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11277,10 +11290,10 @@
         1000,
         "C22F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11291,10 +11304,10 @@
         2500,
         "C23A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11305,10 +11318,10 @@
         2000,
         "C23A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11319,10 +11332,10 @@
         50,
         "C23A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11333,10 +11346,10 @@
         300,
         "C23A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11347,10 +11360,10 @@
         200,
         "C23A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11361,10 +11374,10 @@
         140,
         "C23B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11375,10 +11388,10 @@
         200,
         "C23C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11389,10 +11402,10 @@
         250,
         "C23C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11403,10 +11416,10 @@
         300,
         "C23C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11417,10 +11430,10 @@
         250,
         "C23C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11431,10 +11444,10 @@
         200,
         "C23C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11445,10 +11458,10 @@
         100,
         "C23D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11459,10 +11472,10 @@
         150,
         "C23D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11473,10 +11486,10 @@
         210,
         "C23D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11487,10 +11500,10 @@
         2000,
         "C23D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11501,10 +11514,10 @@
         200,
         "C23D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11515,10 +11528,10 @@
         500,
         "C24A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11529,10 +11542,10 @@
         50,
         "C24A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11543,10 +11556,10 @@
         120,
         "C24A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11557,10 +11570,10 @@
         21,
         "C24A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11571,10 +11584,10 @@
         1000,
         "C24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11585,10 +11598,10 @@
         300,
         "C24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11599,10 +11612,10 @@
         2000,
         "C24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11613,10 +11626,10 @@
         500,
         "C24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11627,10 +11640,10 @@
         300,
         "C24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11641,10 +11654,10 @@
         200,
         "C24C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11655,10 +11668,10 @@
         150,
         "C24C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11669,10 +11682,10 @@
         1000,
         "C24C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11683,10 +11696,10 @@
         150,
         "C24C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11697,10 +11710,10 @@
         500,
         "C24C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11711,10 +11724,10 @@
         500,
         "C24C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11725,10 +11738,10 @@
         90,
         "C24D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11739,10 +11752,10 @@
         80,
         "C24D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11753,10 +11766,10 @@
         800,
         "C24D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11767,10 +11780,10 @@
         400,
         "C24D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11781,10 +11794,10 @@
         200,
         "C24D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11795,10 +11808,10 @@
         300,
         "C24D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11809,10 +11822,10 @@
         160,
         "C24E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11823,10 +11836,10 @@
         100,
         "C24E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11837,10 +11850,10 @@
         1500,
         "C24E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11851,10 +11864,10 @@
         500,
         "C24E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11865,10 +11878,10 @@
         100,
         "C24F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11879,10 +11892,10 @@
         500,
         "C24F",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11893,10 +11906,10 @@
         2000,
         "C24G",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11907,10 +11920,10 @@
         20,
         "C25A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11921,10 +11934,10 @@
         16,
         "C25A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11935,10 +11948,10 @@
         50,
         "C25B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11949,10 +11962,10 @@
         70,
         "C25B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11963,10 +11976,10 @@
         80,
         "C25C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11977,10 +11990,10 @@
         40,
         "C25C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -11991,10 +12004,10 @@
         10,
         "C25C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12005,10 +12018,10 @@
         4,
         "C26A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12019,10 +12032,10 @@
         10,
         "C26B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12033,10 +12046,10 @@
         10,
         "C26B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12047,10 +12060,10 @@
         30,
         "C27A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12061,10 +12074,10 @@
         12,
         "C27A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12075,10 +12088,10 @@
         40,
         "C27B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12089,10 +12102,10 @@
         500,
         "C27B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12103,10 +12116,10 @@
         20,
         "C27C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12117,10 +12130,10 @@
         150,
         "C27C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12131,10 +12144,10 @@
         150,
         "C27C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12145,10 +12158,10 @@
         50,
         "C27D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12159,10 +12172,10 @@
         48,
         "C27D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12173,10 +12186,10 @@
         400,
         "C27D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12187,10 +12200,10 @@
         20,
         "C27E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12201,10 +12214,10 @@
         60,
         "C27E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12215,10 +12228,10 @@
         200,
         "C27E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12229,10 +12242,10 @@
         120,
         "C27E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12243,10 +12256,10 @@
         36,
         "C27E",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12257,10 +12270,10 @@
         10,
         "D02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12271,10 +12284,10 @@
         32,
         "D02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12285,10 +12298,10 @@
         3,
         "D02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12299,10 +12312,10 @@
         3,
         "D02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12313,10 +12326,10 @@
         8,
         "D03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12327,10 +12340,10 @@
         20,
         "D03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12341,10 +12354,10 @@
         9,
         "D03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12355,10 +12368,10 @@
         30,
         "D03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12369,10 +12382,10 @@
         2,
         "D03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12383,10 +12396,10 @@
         2,
         "D03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12397,10 +12410,10 @@
         6,
         "D03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12411,10 +12424,10 @@
         18,
         "D04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12425,10 +12438,10 @@
         10,
         "D04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12439,10 +12452,10 @@
         3,
         "D05A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12453,10 +12466,10 @@
         4,
         "D05B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12467,10 +12480,10 @@
         80,
         "D05B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12481,10 +12494,10 @@
         4,
         "D06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12495,10 +12508,10 @@
         36,
         "E04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12509,10 +12522,10 @@
         2,
         "D06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12523,10 +12536,10 @@
         5,
         "D06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12537,10 +12550,10 @@
         24,
         "D07A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12551,10 +12564,10 @@
         5,
         "D07B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12565,10 +12578,10 @@
         10,
         "D07B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12579,10 +12592,10 @@
         25,
         "D07B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12593,10 +12606,10 @@
         4,
         "D08A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12607,10 +12620,10 @@
         10,
         "D08A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12621,10 +12634,10 @@
         10,
         "D08B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12635,10 +12648,10 @@
         5,
         "D08B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12649,10 +12662,10 @@
         11,
         "D09B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12663,10 +12676,10 @@
         10,
         "D09B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12677,10 +12690,10 @@
         1,
         "D10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12691,10 +12704,10 @@
         6,
         "D10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12705,10 +12718,10 @@
         6,
         "D11A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12719,10 +12732,10 @@
         6,
         "D11A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12733,10 +12746,10 @@
         15,
         "D11B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12747,10 +12760,10 @@
         48,
         "D12A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12761,10 +12774,10 @@
         4,
         "D12A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12775,10 +12788,10 @@
         36,
         "D12B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12789,10 +12802,10 @@
         8,
         "D12B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12803,10 +12816,10 @@
         5,
         "D13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12817,10 +12830,10 @@
         12,
         "D13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12831,10 +12844,10 @@
         12,
         "D13B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12845,10 +12858,10 @@
         6,
         "D14A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12859,10 +12872,10 @@
         10,
         "D14A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12873,10 +12886,10 @@
         22,
         "D14B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12887,10 +12900,10 @@
         14,
         "D14B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12901,10 +12914,10 @@
         10,
         "D15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12915,10 +12928,10 @@
         8,
         "D15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12929,10 +12942,10 @@
         6,
         "D16A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12943,10 +12956,10 @@
         48,
         "D16A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12957,10 +12970,10 @@
         10,
         "D16B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12971,10 +12984,10 @@
         20,
         "D17",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12985,10 +12998,10 @@
         2,
         "D18",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -12999,10 +13012,10 @@
         4,
         "D19",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13013,10 +13026,10 @@
         2,
         "D13",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13027,10 +13040,10 @@
         4,
         "D21",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13041,10 +13054,10 @@
         4,
         "D22",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13055,10 +13068,10 @@
         5,
         "D23",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13069,10 +13082,10 @@
         4,
         "D24",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13083,10 +13096,10 @@
         10,
         "D25",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13097,10 +13110,10 @@
         20,
         "E01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13111,10 +13124,10 @@
         5,
         "E01A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13125,10 +13138,10 @@
         10,
         "E01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13139,10 +13152,10 @@
         50,
         "E01B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13153,10 +13166,10 @@
         50,
         "E01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13167,10 +13180,10 @@
         24,
         "E01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13181,10 +13194,10 @@
         16,
         "E01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13195,10 +13208,10 @@
         16,
         "E01C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13209,10 +13222,10 @@
         10,
         "E02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13223,10 +13236,10 @@
         20,
         "E02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13237,10 +13250,10 @@
         12,
         "E02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13251,10 +13264,10 @@
         20,
         "E02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13265,10 +13278,10 @@
         4,
         "E02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13279,10 +13292,10 @@
         4,
         "E02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13293,10 +13306,10 @@
         100,
         "E02C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13307,10 +13320,10 @@
         2,
         "E03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13321,10 +13334,10 @@
         300,
         "E03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13335,10 +13348,10 @@
         1000,
         "E03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13349,10 +13362,10 @@
         2000,
         "E03B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13363,10 +13376,10 @@
         8,
         "E03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13377,10 +13390,10 @@
         35,
         "E03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13391,10 +13404,10 @@
         22,
         "E03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13405,10 +13418,10 @@
         36,
         "E03C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13419,10 +13432,10 @@
         35,
         "E04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13433,10 +13446,10 @@
         35,
         "E04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13447,10 +13460,10 @@
         16,
         "E04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13461,10 +13474,10 @@
         30,
         "E04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13475,10 +13488,10 @@
         90,
         "E04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13489,10 +13502,10 @@
         6,
         "E04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13503,10 +13516,10 @@
         8,
         "E04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13517,10 +13530,10 @@
         0,
         "E04C",
         "LOCAL",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13531,10 +13544,10 @@
         20,
         "E04C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13545,10 +13558,10 @@
         20,
         "E05A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13559,10 +13572,10 @@
         20,
         "E05B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13573,10 +13586,10 @@
         20,
         "E06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13587,10 +13600,10 @@
         20,
         "E06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13601,10 +13614,10 @@
         8,
         "E06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13615,10 +13628,10 @@
         30,
         "E06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13629,10 +13642,10 @@
         300,
         "E06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13643,10 +13656,10 @@
         8,
         "E06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13657,10 +13670,10 @@
         24,
         "E06B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13671,10 +13684,10 @@
         8,
         "E06C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13685,10 +13698,10 @@
         8,
         "E06C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13699,10 +13712,10 @@
         10,
         "E07A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13713,10 +13726,10 @@
         6,
         "E07A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13727,10 +13740,10 @@
         50,
         "E07B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13741,10 +13754,10 @@
         120,
         "E07C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13755,10 +13768,10 @@
         400,
         "E07C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13769,10 +13782,10 @@
         140,
         "E07C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13783,10 +13796,10 @@
         16,
         "E07C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13797,10 +13810,10 @@
         30,
         "E07D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13811,10 +13824,10 @@
         48,
         "E07D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13825,10 +13838,10 @@
         8,
         "E07D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13839,10 +13852,10 @@
         8,
         "E07D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13853,10 +13866,10 @@
         9,
         "E07D",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13867,10 +13880,10 @@
         48,
         "E08A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13881,10 +13894,10 @@
         12,
         "E08A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13895,10 +13908,10 @@
         200,
         "E08A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13909,10 +13922,10 @@
         9,
         "E08B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13923,10 +13936,10 @@
         500,
         "E08C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13937,10 +13950,10 @@
         53,
         "E08C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13951,10 +13964,10 @@
         400,
         "E08C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13965,10 +13978,10 @@
         10,
         "E08C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13979,10 +13992,10 @@
         120,
         "E08C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -13993,10 +14006,10 @@
         60,
         "E09A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14007,10 +14020,10 @@
         40,
         "E09A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14021,10 +14034,10 @@
         8,
         "E09A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14035,10 +14048,10 @@
         20,
         "E09B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14049,10 +14062,10 @@
         100,
         "E09B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14063,10 +14076,10 @@
         8,
         "E09C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14077,10 +14090,10 @@
         16,
         "E09C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14091,10 +14104,10 @@
         20,
         "E10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14105,10 +14118,10 @@
         16,
         "E10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14119,10 +14132,10 @@
         40,
         "E10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14133,10 +14146,10 @@
         1000,
         "E10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14147,10 +14160,10 @@
         100,
         "E10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14161,10 +14174,10 @@
         10,
         "E10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14175,10 +14188,10 @@
         10,
         "E10B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14189,10 +14202,10 @@
         10,
         "E10C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14203,10 +14216,10 @@
         10,
         "E10C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14217,10 +14230,10 @@
         30,
         "E10C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14231,10 +14244,10 @@
         12,
         "E10C",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14245,10 +14258,10 @@
         1,
         "F03",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14259,10 +14272,10 @@
         5,
         "F04",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14273,10 +14286,10 @@
         5,
         "F04",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14287,10 +14300,10 @@
         2,
         "F05",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14301,10 +14314,10 @@
         2,
         "F05",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14315,10 +14328,10 @@
         2,
         "F05",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14329,10 +14342,10 @@
         2,
         "F05",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14343,10 +14356,10 @@
         2,
         "F06",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14357,10 +14370,10 @@
         2,
         "F07",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14371,10 +14384,10 @@
         40,
         "F07",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14385,10 +14398,10 @@
         3,
         "F08",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14399,10 +14412,10 @@
         6,
         "F09",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14413,10 +14426,10 @@
         6,
         "F09",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14427,10 +14440,10 @@
         7,
         "G02A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14441,10 +14454,10 @@
         90,
         "G02B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14455,10 +14468,10 @@
         42,
         "G03A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14469,10 +14482,10 @@
         40,
         "G04A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14483,10 +14496,10 @@
         42,
         "G04B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14497,10 +14510,10 @@
         30,
         "G06A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14511,10 +14524,10 @@
         12,
         "G07A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14525,10 +14538,10 @@
         40,
         "G09A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14539,10 +14552,10 @@
         12,
         "G10A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14553,10 +14566,10 @@
         2,
         "G11A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14567,10 +14580,10 @@
         8,
         "G12A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14581,10 +14594,10 @@
         20,
         "G13A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14595,10 +14608,10 @@
         108,
         "G14A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14609,10 +14622,10 @@
         45,
         "G15A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14623,10 +14636,10 @@
         8,
         "G15B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14637,10 +14650,10 @@
         0,
         "G16A",
         "LOCAL",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14651,10 +14664,10 @@
         0,
         "G17A",
         "LOCAL",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14665,10 +14678,10 @@
         162,
         "G18A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14679,10 +14692,10 @@
         20,
         "G19A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14693,10 +14706,10 @@
         24,
         "G20A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14707,10 +14720,10 @@
         8,
         "G21A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14721,10 +14734,10 @@
         8,
         "G22A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14735,10 +14748,10 @@
         26,
         "G23A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14749,10 +14762,10 @@
         20,
         "G24A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14763,10 +14776,10 @@
         8,
         "G24B",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14777,10 +14790,10 @@
         2,
         "G25A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14791,10 +14804,10 @@
         108,
         "G26A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14805,10 +14818,10 @@
         2,
         "G27A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14819,10 +14832,10 @@
         0,
         "G28A",
         "LOCAL",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14833,10 +14846,10 @@
         0,
         "G29A",
         "LOCAL",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14847,10 +14860,10 @@
         2,
         "G30A",
         "",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ],
     [
@@ -14861,10 +14874,23 @@
         0,
         "G31A",
         "LOCAL",
-        null,
-        null,
+        None,
+        None,
         "",
-        null,
+        None,
         0
     ]
 ]
+
+
+print("gerando listas")
+
+qtdlistas = 0
+for peca in pecas:
+    if [0,peca[5][0:3],0,0]not in listas:
+        listas.append([0,peca[5][0:3],0,0])
+        
+for lista in listas:
+    qtdlistas+=1
+    lista[0] = qtdlistas
+print("listas geradas")
