@@ -30,6 +30,22 @@ function PegaLista() {
     }
 }
 
+function PegaListaSingle() {
+    yourUrl = ""
+    value = "getListaSingle"
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", yourUrl, true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send(JSON.stringify({
+        function: value
+    }));
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            document.getElementById("listapecas").innerHTML = xhr.response
+        }
+    }
+}
+
 function aoba() {
     alert("aoba")
 }
@@ -67,6 +83,27 @@ function salvaLista(numlista) {
     }
 }
 
+function salvaListaSingle() {
+
+    var listaString = $("#formLista").serializeArray()
+
+
+    yourUrl = ""
+    value = "salvaListaSingle"
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", yourUrl, true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send(JSON.stringify({
+        function: value,
+        dados: listaString
+    }));
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            document.getElementById("listapecas").innerHTML = xhr.response
+        }
+    }
+}
+
 
 function relatorioFinal() {
     yourUrl = ""
@@ -79,7 +116,7 @@ function relatorioFinal() {
     }));
     xhr.onreadystatechange = function () {
         if (xhr.readyState == XMLHttpRequest.DONE) {
-            document.getElementById("status").innerHTML = xhr.response
+            //document.getElementById("status").innerHTML = xhr.response
         }
     }
 }

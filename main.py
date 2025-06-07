@@ -6,9 +6,6 @@ import os
 import data as dados
 import htmlfunctions
 
-
-
-
 class HTTPHandler(SimpleHTTPRequestHandler):
     
     def _set_headers(self):
@@ -40,9 +37,19 @@ class HTTPHandler(SimpleHTTPRequestHandler):
                 bytes(htmlfunctions.geralistapecas(), "utf-8"))
             return
         
+        if data["function"] == "getListaSingle":
+            self.wfile.write(
+                bytes(htmlfunctions.geralistasingle(), "utf-8"))
+            return
+        
         if data["function"] == "salvaLista":
             self.wfile.write(
                 bytes(htmlfunctions.salvaLista(data["dados"]), "utf-8"))
+            return
+        
+        if data["function"] == "salvaListaSingle":
+            self.wfile.write(
+                bytes(htmlfunctions.salvaListaSingle(data["dados"]), "utf-8"))
             return
         
         if data["function"] == "relatorioFinal":
@@ -65,5 +72,5 @@ class HTTPServer(BaseHTTPServer):
         BaseHTTPServer.__init__(self, server_address, RequestHandlerClass)
 
 web_dir = os.path.join(os.path.dirname(__file__), 'web')
-httpd = HTTPServer(web_dir, ("inf9442", 8000))
+httpd = HTTPServer(web_dir, ("inf9442", 8181))
 httpd.serve_forever()
