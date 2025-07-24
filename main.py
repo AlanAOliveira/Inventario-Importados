@@ -5,6 +5,8 @@ import simplejson
 import os
 import data as dados
 import htmlfunctions
+import ssl
+import socket
 
 class HTTPHandler(SimpleHTTPRequestHandler):
     
@@ -71,6 +73,8 @@ class HTTPServer(BaseHTTPServer):
         self.base_path = base_path
         BaseHTTPServer.__init__(self, server_address, RequestHandlerClass)
 
+
+
 web_dir = os.path.join(os.path.dirname(__file__), 'web')
-httpd = HTTPServer(web_dir, ("inf9442", 8181))
+httpd = HTTPServer(web_dir, (socket.gethostname(), 8443))
 httpd.serve_forever()
