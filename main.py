@@ -77,4 +77,5 @@ class HTTPServer(BaseHTTPServer):
 
 web_dir = os.path.join(os.path.dirname(__file__), 'web')
 httpd = HTTPServer(web_dir, (socket.gethostname(), 8443))
+print(socket.gethostname())
 httpd.serve_forever()
