@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventário - Lista por Endereço</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --primary-light: #eff6ff;
+            --success: #10b981;
+            --success-dark: #059669;
+            --danger: #ef4444;
+            --danger-dark: #dc2626;
+            --warning: #f59e0b;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-400: #9ca3af;
+            --gray-500: #6b7280;
+            --gray-600: #4b5563;
+            --gray-700: #374151;
+            --gray-800: #1f2937;
+            --gray-900: #111827;
+            --radius: 10px;
+            --radius-sm: 6px;
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+            --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+            --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -1px rgba(0,0,0,0.04);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--gray-50);
+            color: var(--gray-800);
+            padding: 24px;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            margin-bottom: 24px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        
+        header h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--gray-900);
+            letter-spacing: -0.02em;
+            margin-bottom: 4px;
+        }
+        
+        header p {
+            font-size: 0.95rem;
+            color: var(--gray-500);
+        }
+        
+        .toolbar {
+            background: white;
+            padding: 16px;
+            border-radius: var(--radius);
+            border: 1px solid var(--gray-200);
+            margin-bottom: 20px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .toolbar-group {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .toolbar-group.grow {
+            flex: 1;
+            min-width: 260px;
+        }
+        
+        .toolbar-spacer {
+            flex: 1;
+        }
+        
+        input[type="text"], select {
+            padding: 9px 12px;
+            border: 1px solid var(--gray-300);
+            border-radius: var(--radius-sm);
+            font-size: 0.9rem;
+            font-family: inherit;
+            background: white;
+            color: var(--gray-800);
+            transition: all 0.15s;
+        }
+        
+        input[type="text"] {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        input[type="text"]:focus, select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+        }
+        
+        .btn {
+            padding: 9px 16px;
+            border: 1px solid transparent;
+            border-radius: var(--radius-sm);
+            font-size: 0.875rem;
+            font-weight: 500;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.15s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+        }
+        
+        .btn:active {
+            transform: translateY(1px);
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+        
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+        
+        .btn-success:hover {
+            background: var(--success-dark);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: var(--gray-700);
+            border-color: var(--gray-300);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--gray-50);
+            border-color: var(--gray-400);
+        }
+        
+        .btn-danger {
+            background: white;
+            color: var(--danger);
+            border-color: var(--gray-300);
+        }
+        
+        .btn-danger:hover {
+            background: var(--danger);
+            color: white;
+            border-color: var(--danger);
+        }
+        
+        .save-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: var(--radius-sm);
+            font-size: 0.8rem;
+            font-weight: 500;
+            background: var(--gray-100);
+            color: var(--gray-600);
+        }
+        
+        .save-status::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--gray-400);
+        }
+        
+        .save-status.saved {
+            background: #ecfdf5;
+            color: var(--success-dark);
+        }
+        
+        .save-status.saved::before {
+            background: var(--success);
+        }
+        
+        .save-status.unsaved {
+            background: #fffbeb;
+            color: #92400e;
+        }
+        
+        .save-status.unsaved::before {
+            background: var(--warning);
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+        
+        .summary-bar {
+            display: flex;
+            gap: 24px;
+            padding: 14px 18px;
+            background: white;
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius);
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .summary-item {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+        
+        .summary-item .label {
+            font-size: 0.8rem;
+            color: var(--gray-500);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 500;
+        }
+        
+        .summary-item .value {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--gray-900);
+        }
+        
+        .summary-item.highlight .value {
+            color: var(--success-dark);
+        }
+        
+        .zone-section {
+            background: white;
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius);
+            margin-bottom: 12px;
+            overflow: hidden;
+            transition: box-shadow 0.15s;
+        }
+        
+        .zone-section:hover {
+            box-shadow: var(--shadow);
+        }
+        
+        .zone-header {
+            padding: 14px 18px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            transition: background 0.15s;
+        }
+        
+        .zone-header:hover {
+            background: var(--gray-50);
+        }
+        
+        .zone-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--gray-900);
+        }
+        
+        .zone-chevron {
+            width: 20px;
+            height: 20px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray-400);
+            transition: transform 0.2s;
+        }
+        
+        .zone-section.open .zone-chevron {
+            transform: rotate(90deg);
+        }
+        
+        .zone-badges {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        
+        .badge {
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background: var(--gray-100);
+            color: var(--gray-600);
+        }
+        
+        .badge.count {
+            background: var(--primary-light);
+            color: var(--primary-dark);
+        }
+        
+        .badge.total {
+            background: #ecfdf5;
+            color: var(--success-dark);
+        }
+        
+        .badge.total.zero {
+            background: var(--gray-100);
+            color: var(--gray-500);
+        }
+        
+        .zone-content {
+            display: none;
+            border-top: 1px solid var(--gray-200);
+        }
+        
+        .zone-section.open .zone-content {
+            display: block;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background: var(--gray-50);
+        }
+        
+        th {
+            padding: 10px 14px;
+            text-align: left;
+            font-weight: 600;
+            color: var(--gray-500);
+            border-bottom: 1px solid var(--gray-200);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        td {
+            padding: 12px 14px;
+            border-bottom: 1px solid var(--gray-100);
+            font-size: 0.875rem;
+            color: var(--gray-700);
+        }
+        
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+        
+        tbody tr {
+            transition: background 0.1s;
+        }
+        
+        tbody tr:hover {
+            background: var(--gray-50);
+        }
+        
+        tbody tr.has-count {
+            background: #fefce8;
+        }
+        
+        tbody tr.has-count:hover {
+            background: #fef9c3;
+        }
+        
+        .address-cell {
+            font-weight: 600;
+            color: var(--primary-dark);
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            background: var(--primary-light);
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            display: inline-block;
+        }
+        
+        .part-number {
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            color: var(--gray-800);
+            font-size: 0.825rem;
+        }
+        
+        .back-number {
+            color: var(--gray-500);
+            font-size: 0.825rem;
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+        }
+        
+        .part-name {
+            color: var(--gray-700);
+        }
+        
+        .counter-cell {
+            width: 180px;
+            text-align: right;
+        }
+        
+        .counter-controls {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: var(--gray-100);
+            padding: 3px;
+            border-radius: 8px;
+        }
+        
+        .count-btn {
+            width: 28px;
+            height: 28px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            color: var(--gray-700);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .count-btn.minus:hover {
+            background: var(--danger);
+            color: white;
+        }
+        
+        .count-btn.plus:hover {
+            background: var(--success);
+            color: white;
+        }
+        
+        .count-btn:active {
+            transform: scale(0.92);
+        }
+        
+        .count-input {
+            width: 50px;
+            padding: 4px 6px;
+            border: none;
+            background: transparent;
+            text-align: center;
+            font-weight: 600;
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 0.9rem;
+            color: var(--gray-900);
+            -moz-appearance: textfield;
+        }
+        
+        .count-input::-webkit-outer-spin-button,
+        .count-input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        
+        .count-input:focus {
+            outline: none;
+            background: white;
+            border-radius: 4px;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--gray-500);
+        }
+        
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: var(--gray-900);
+            color: white;
+            padding: 12px 18px;
+            border-radius: var(--radius-sm);
+            box-shadow: var(--shadow-md);
+            font-size: 0.875rem;
+            font-weight: 500;
+            z-index: 9999;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.25s;
+        }
+        
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        @media (max-width: 768px) {
+            body { padding: 12px; }
+            header h1 { font-size: 1.4rem; }
+            .toolbar { padding: 12px; }
+            .toolbar-group.grow { min-width: 100%; }
+            table { font-size: 0.8rem; }
+            th, td { padding: 8px; }
+            .counter-cell { width: auto; }
+            .summary-bar { gap: 14px; padding: 12px; }
+            .summary-item .value { font-size: 1rem; }
+            th:nth-child(2), td:nth-child(2) { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sistema de Inventário</h1>
+            <p>Lista de peças organizada por endereço de armazenamento</p>
+        </header>
+        
+        <div class="toolbar">
+            <div class="toolbar-group grow">
+                <input type="text" id="searchInput" placeholder="Buscar por Part Number, nome ou endereço..."> <select id="zoneFilter"> <option value="">Todas as Zonas</option> </select> </div> <div class="toolbar-group"> <button class="btn btn-success" onclick="saveCounts()">💾 Salvar</button> <button class="btn btn-secondary" onclick="exportCounts()">📤 Exportar CSV</button> <button class="btn btn-danger" onclick="resetCounts()">Zerar</button> <span class="save-status" id="saveStatus">Sem alterações</span> </div> </div>
+Example
+<div class="summary-bar">
+        <div class="summary-item">
+            <span class="label">Itens exibidos</span>
+            <span class="value" id="displayedItems">0</span>
+        </div>
+        <div class="summary-item">
+            <span class="label">Zonas</span>
+            <span class="value" id="displayedZones">0</span>
+        </div>
+        <div class="summary-item highlight">
+            <span class="label">Total contado</span>
+            <span class="value" id="totalCounted">0</span>
+        </div>
+    </div>
+    
+    <div id="inventoryContainer"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+    // Dataset completo do inventário
+    const inventory = [
+        {back:"7266", partNumber:"17173-24020-00", partName:"GASKET EXHAUST MANIFOLD", floor:"AA01A"},
+        {back:"8619", partNumber:"33504-33170-C0", partName:"KNOB SUB-ASSY SHIFT LEVER", floor:"AA01B"},
+        {back:"554", partNumber:"55468-02450-00", partName:"RETAINER INSTR PANEL SAFETY PAD CTR", floor:"AA01C"},
+        {back:"8142", partNumber:"55901-12280-00", partName:"CONTROL SUB-ASSY HEATER NO 1", floor:"AA01D"},
+        {back:"8189", partNumber:"55902-12410-00", partName:"PANEL SUB-ASSY AIR CONDITIONER", floor:"AA02A"},
+        {back:"8190", partNumber:"55903-12380-00", partName:"CONTROL SUB-ASSY HEATER NO 3", floor:"AA02B"},
+        {back:"7499", partNumber:"55522-52020-00", partName:"COVER RADIO TUNER OPENING", floor:"AA02C"},
+        {back:"8624", partNumber:"88650-16790-00", partName:"AMPLIFIER ASSY AIR CONDITIONER", floor:"AA02D"},
+        {back:"660", partNumber:"89340-02210-00", partName:"COMPUTER ASSY CLEARANCE WARNING", floor:"AA03A"},
+        {back:"7862", partNumber:"89573-12110-00", partName:"BRACKET FUEL PUMP CONTROL COMPUTER", floor:"AA03B"},
+        {back:"7876", partNumber:"89904-16070-00", partName:"TRANSMITTER SUB-ASSY ELECTRICAL KEY", floor:"AA03C"},
+        {back:"8223", partNumber:"89904-16340-00", partName:"TRANSMITTER SUB-ASSY ELECTRICAL KEY", floor:"AA03D"},
+        {back:"8224", partNumber:"89904-16350-00", partName:"TRANSMITTER SUB-ASSY ELECTRICAL KEY", floor:"AA04A"},
+        {back:"8100", partNumber:"96133-41501-00", partName:"CLIP HOSE", floor:"AA04B"},
+        {back:"8103", partNumber:"96138-41501-00", partName:"CLIP HOSE", floor:"AA04C"},
+        {back:"8104", partNumber:"96138-41801-00", partName:"CLIP HOSE", floor:"AA04D"},
+        {back:"7872", partNumber:"89904-16270-00", partName:"TRANSMITTER SUB-ASSY ELECTRICAL KEY", floor:"AA05A"},
+        {back:"249", partNumber:"16282-BZ070-00", partName:"HOSE WATER BY-PASS NO.5", floor:"AA05B"},
+        {back:"294", partNumber:"21552-BZ030-00", partName:"BUSH", floor:"AA05C"},
+        {back:"8404", partNumber:"23172-B2020-00", partName:"CLAMP", floor:"AA05D"},
+        {back:"7395", partNumber:"44521-47010-00", partName:"COLLAR BRAKE ACTUATOR CASE", floor:"AA06A"},
+        {back:"476", partNumber:"47371-BZ200-00", partName:"CLAMP BRAKE TUBE", floor:"AA06B"},
+        {back:"477", partNumber:"47371-BZ230-00", partName:"CLAMP BRAKE TUBE", floor:"AA06C"},
+        {back:"25", partNumber:"47893-0K110-00", partName:"FILM DISC BRAKE ANTI RUST", floor:"AA06D"},
+        {back:"478", partNumber:"47381-BZ230-00", partName:"BRACKET TUBE CLAMP", floor:"AA07A"},
+        {back:"1089", partNumber:"47372-BZ090-00", partName:"CLAMP BRAKE TUBE NO.2", floor:"AA07B"},
+        {back:"26", partNumber:"47893-0K120-00", partName:"FILM DISC BRAKE ANTI RUST", floor:"AA07C"},
+        {back:"1121", partNumber:"77281-BZ040-00", partName:"CLAMP FUEL HOSE", floor:"AA07D"},
+        {back:"233", partNumber:"82715-BZK60-00", partName:"BRACKET WIRING HARNESS CLAMP", floor:"AA08A"},
+        {back:"235", partNumber:"82715-BZQ60-00", partName:"BRACKET WIRING HARNESS CLAMP", floor:"AA08B"},
+        {back:"953", partNumber:"87124-BZ030-00", partName:"CLAMP HEATER", floor:"AA08C"},
+        {back:"961", partNumber:"87263-BZ020-00", partName:"BRACKET WATER HOSE", floor:"AA08D"}
+    ];
+    
+    const STORAGE_KEY = 'inventoryCounts_v1';
+    let counts = {};
+    let hasUnsavedChanges = false;
+    
+    function getItemKey(item) {
+        return `${item.floor}_${item.partNumber}`;
+    }
+    
+    function getZone(floor) {
+        if (!floor) return 'SEM';
+        return floor.substring(0, 2);
+    }
+    
+    function loadCounts() {
+        try {
+            const stored = localStorage.getItem(STORAGE_KEY);
+            if (stored) counts = JSON.parse(stored);
+        } catch (e) {
+            counts = {};
+        }
+    }
+    
+    function saveCounts() {
+        try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(counts));
+            hasUnsavedChanges = false;
+            updateSaveStatus('saved');
+            showToast('Contagens salvas com sucesso');
+        } catch (e) {
+            alert('Erro ao salvar: ' + e.message);
+        }
+    }
+    
+    function updateSaveStatus(state) {
+        const el = document.getElementById('saveStatus');
+        el.classList.remove('saved', 'unsaved');
+        if (state === 'saved') {
+            el.classList.add('saved');
+            el.textContent = 'Salvo às ' + new Date().toLocaleTimeString('pt-BR', {hour:'2-digit', minute:'2-digit'});
+        } else if (state === 'unsaved') {
+            el.classList.add('unsaved');
+            el.textContent = 'Alterações não salvas';
+        } else {
+            el.textContent = 'Sem alterações';
+        }
+    }
+    
+    function showToast(message) {
+        const toast = document.getElementById('toast');
+        toast.textContent = message;
+        toast.classList.add('show');
+        clearTimeout(toast._timer);
+        toast._timer = setTimeout(() => toast.classList.remove('show'), 2200);
+    }
+    
+    function changeCount(key, delta) {
+        const current = counts[key] || 0;
+        const newVal = Math.max(0, current + delta);
+        if (newVal === 0) delete counts[key];
+        else counts[key] = newVal;
+        hasUnsavedChanges = true;
+        updateSaveStatus('unsaved');
+        updateItemDisplay(key);
+        updateTotalCounted();
+    }
+    
+    function setCount(key, value) {
+        const num = parseInt(value, 10);
+        if (isNaN(num) || num < 0) {
+            updateItemDisplay(key);
+            return;
+        }
+        if (num === 0) delete counts[key];
+        else counts[key] = num;
+        hasUnsavedChanges = true;
+        updateSaveStatus('unsaved');
+        updateItemDisplay(key);
+        updateTotalCounted();
+    }
+    
+    function updateItemDisplay(key) {
+        const val = counts[key] || 0;
+        const row = document.querySelector(`tr[data-key="${key}"]`);
+        if (!row) return;
+        const input = row.querySelector('.count-input');
+        if (input) input.value = val;
+        row.classList.toggle('has-count', val > 0);
+        updateZoneTotal(row.dataset.zone);
+    }
+    
+    function updateZoneTotal(zone) {
+        const section = document.querySelector(`.zone-section[data-zone="${zone}"]`);
+        if (!section) return;
+        const rows = section.querySelectorAll('tr[data-key]');
+        let total = 0;
+        rows.forEach(r => { total += counts[r.dataset.key] || 0; });
+        const badge = section.querySelector('.badge.total');
+        if (badge) {
+            badge.textContent = `${total} contados`;
+            badge.classList.toggle('zero', total === 0);
+        }
+    }
+    
+    function updateTotalCounted() {
+        const total = Object.values(counts).reduce((a, b) => a + b, 0);
+        document.getElementById('totalCounted').textContent = total;
+    }
+    
+    function resetCounts() {
+        if (!confirm('Zerar TODAS as contagens? Esta ação não pode ser desfeita.')) return;
+        counts = {};
+        hasUnsavedChanges = true;
+        updateSaveStatus('unsaved');
+        renderInventory(getCurrentFilteredItems());
+    }
+    
+    function exportCounts() {
+        let csv = 'Zona,Endereco,Back,PartNumber,PartName,Quantidade\n';
+        inventory.forEach(item => {
+            const key = getItemKey(item);
+            const qty = counts[key] || 0;
+            const zone = getZone(item.floor);
+            const name = (item.partName || '').replace(/"/g, '""');
+            csv += `${zone},${item.floor},${item.back},"${item.partNumber}","${name}",${qty}\n`;
+        });
+        const blob = new Blob(['\ufeff' + csv], {type: 'text/csv;charset=utf-8;'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `inventario_${new Date().toISOString().slice(0,10)}.csv`;
+        a.click();
+        URL.revokeObjectURL(url);
+        showToast('CSV exportado');
+    }
+    
+    inventory.sort((a, b) => (a.floor || '').localeCompare(b.floor || ''));
+    
+    function groupByZone(items) {
+        const grouped = {};
+        items.forEach(item => {
+            const zone = getZone(item.floor);
+            if (!grouped[zone]) grouped[zone] = [];
+            grouped[zone].push(item);
+        });
+        return grouped;
+    }
+    
+    function getCurrentFilteredItems() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const selectedZone = document.getElementById('zoneFilter').value;
+        let filtered = inventory;
+        if (searchTerm) {
+            filtered = filtered.filter(item => 
+                (item.partNumber || '').toLowerCase().includes(searchTerm) ||
+                (item.partName || '').toLowerCase().includes(searchTerm) ||
+                (item.floor || '').toLowerCase().includes(searchTerm) ||
+                (item.back || '').toLowerCase().includes(searchTerm)
+            );
+        }
+        if (selectedZone) {
+            filtered = filtered.filter(item => getZone(item.floor) === selectedZone);
+        }
+        return filtered;
+    }
+    
+    function renderInventory(items) {
+        const container = document.getElementById('inventoryContainer');
+        const grouped = groupByZone(items);
+        const zones = Object.keys(grouped).sort();
+        
+        container.innerHTML = '';
+        
+        if (items.length === 0) {
+            container.innerHTML = '<div class="empty-state">Nenhum item encontrado.</div>';
+        }
+        
+        zones.forEach((zone, index) => {
+            const section = document.createElement('div');
+            section.className = 'zone-section' + (index === 0 ? ' open' : '');
+            section.dataset.zone = zone;
+            
+            const zoneItems = grouped[zone];
+            const zoneTotal = zoneItems.reduce((sum, item) => sum + (counts[getItemKey(item)] || 0), 0);
+            
+            section.innerHTML = `
+                <div class="zone-header" onclick="toggleZone(this)">
+                    <div class="zone-title">
+                        <span class="zone-chevron">▶</span>
+                        <span>Zona ${zone}</span>
+                    </div>
+                    <div class="zone-badges">
+                        <span class="badge total ${zoneTotal === 0 ? 'zero' : ''}">${zoneTotal} contados</span>
+                        <span class="badge count">${zoneItems.length} itens</span>
+                    </div>
+                </div>
+                <div class="zone-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Endereço</th>
+                                <th>Back</th>
+                                    <th>Part Number</th>
+                                    <th>Nome da Peça</th>
+                                    <th style="text-align:right;">Quantidade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${zoneItems.map(item => {
+                                    const key = getItemKey(item);
+                                    const qty = counts[key] || 0;
+                                    return `
+                                    <tr data-key="${key}" data-zone="${zone}" class="${qty > 0 ? 'has-count' : ''}">
+                                        <td><span class="address-cell">${item.floor}</span></td>
+                                        <td class="back-number">${item.back}</td>
+                                        <td class="part-number">${item.partNumber}</td>
+                                        <td class="part-name">${item.partName}</td>
+                                        <td class="counter-cell">
+                                            <div class="counter-controls">
+                                                <button class="count-btn minus" onclick="changeCount('${key}', -1)" aria-label="Diminuir">−</button>
+                                                <input type="number" class="count-input" min="0" value="${qty}"
+                                                       onchange="setCount('${key}', this.value)"
+                                                       onclick="this.select()">
+                                                <button class="count-btn plus" onclick="changeCount('${key}', 1)" aria-label="Aumentar">+</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    `;
+                                }).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+                
+                container.appendChild(section);
+            });
+            
+            document.getElementById('displayedItems').textContent = items.length;
+            document.getElementById('displayedZones').textContent = zones.length;
+            updateTotalCounted();
+            
+            const allGrouped = groupByZone(inventory);
+            const allZones = Object.keys(allGrouped).sort();
+            const zoneFilter = document.getElementById('zoneFilter');
+            const currentValue = zoneFilter.value;
+            zoneFilter.innerHTML = '<option value="">Todas as Zonas</option>';
+            allZones.forEach(z => {
+                const opt = document.createElement('option');
+                opt.value = z;
+                opt.textContent = `Zona ${z}`;
+                zoneFilter.appendChild(opt);
+            });
+            zoneFilter.value = currentValue;
+        }
+        
+        function toggleZone(header) {
+            header.parentElement.classList.toggle('open');
+        }
+        
+        function applyFilters() {
+            renderInventory(getCurrentFilteredItems());
+        }
+        
+        document.getElementById('searchInput').addEventListener('input', applyFilters);
+        document.getElementById('zoneFilter').addEventListener('change', applyFilters);
+        
+        window.addEventListener('beforeunload', (e) => {
+            if (hasUnsavedChanges) {
+                e.preventDefault();
+                e.returnValue = '';
+            }
+        });
+        
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+                e.preventDefault();
+                saveCounts();
+            }
+        });
+        
+        loadCounts();
+        renderInventory(inventory);
+        if (Object.keys(counts).length > 0) {
+            updateSaveStatus('saved');
+        }
+    </script>
+</body>
+</html>
